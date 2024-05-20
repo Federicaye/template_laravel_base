@@ -54,3 +54,14 @@ php artisan serve
 #lancio server vite
 npm run dev
 ```
+## Clono progetto da github 
+```bash
+# copio file .env.example e lo rinomino in .env
+
+composer install
+
+php artisan key:generate
+
+npm install
+
+```
